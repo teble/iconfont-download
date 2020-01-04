@@ -46,7 +46,7 @@ if __name__ == '__main__':
         num = 200
     while True:
         res = input('请输入需要提取矢量图的网址：')
-        fi = re.findall(r'^https?://www\.iconfont\.cn/collections/detail\?cid=(\d+)', res)
+        fi = re.findall(r'^https?://www\.iconfont\.cn/collections/detail\?.*cid=(\d+)', res)
         if len(fi) <= 0:
             print('您输入的网址不正确')
             continue
