@@ -5,7 +5,7 @@ iconfont-download（support output png）
 - convert .svg to .png
 - support custom output height
 
-0. pre-work: `pip install svglib request`
+0. pre-work: `pip install svglib requests`
 1. running iconfont.py
 2. enter output file height
 3. loop input iconfont url(eg: https://www.iconfont.cn/collections/detail?cid=xxx)
